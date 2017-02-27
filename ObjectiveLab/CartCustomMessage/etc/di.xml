@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Checkout\Controller\Cart\Add">
+        <plugin name="objectivelab_cart_custom_message" type="ObjectiveLab\CartCustomMessage\Plugin\Checkout\Controller\Cart\Add" sortOrder="100"/>
+    </type>
+</config>
